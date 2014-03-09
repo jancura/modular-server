@@ -1,0 +1,5 @@
+LIBRARY	ProcessEcho
+
+EXPORTS
+	ProcessCommandMessage @1
+	GetCode @2

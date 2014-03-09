@@ -1,0 +1,52 @@
+preprocessor.cpp: preprocessor allright
+main(): 
+port telnet = 23
+port broadcast 9990
+localhost = 10.9.9.177
+subnetmask = 255.255.248.0
+broadcast 10.9.15.255
+broadcast NEW
+broadcastadd
+ping Default 3000
+
+listenThread::run()): Pomenovanie socketu bolo uspesne, funkcia bind()
+listenThread::run()): Vytvorenie fronty funkciou listen bolo uspesne
+listenThread::run()): Funkcia accept() bola uspesna!
+listenThread::run()): Vlakno communicateThread bolo uspesne alokovane, ID: 1
+listenThread::run()): Spustenie komunikacneho vlakna bolo uspesne, ID: 1
+communicateThread::run(): Accepting Message!
+AcceptMessage(): allright!
+communicateThread::run(): Message accepted!
+communicateThread::run(): Accepting Message!
+AcceptMessage(): allright!
+communicateThread::run(): Message accepted!
+communicateThread::run(): Accepting Message!
+AcceptMessage(): allright!
+communicateThread::run(): Message accepted!
+communicateThread::run(): Accepting Message!
+AcceptMessage(): allright!
+communicateThread::run(): Message accepted!
+communicateThread::run(): Accepting Message!
+AcceptMessage(): allright!
+communicateThread::run(): Message accepted!
+communicateThread::run(): Accepting Message!
+AcceptMessage(): allright!
+communicateThread::run(): Message accepted!
+communicateThread::run(): Accepting Message!
+8:56:50  RECEIVE from 127.0.0.1 thread ID 1 bytes 6:
+$close
+AcceptMessage(): spracuj(message) prebehlo v poriadku
+communicateThread::Execute : Command close from: 127.0.0.1, client ID: 1
+AcceptMessage(): Execute(cmds) prebehlo v poriadku
+AcceptMessage(): allright!
+communicateThread::run(): Message accepted!
+listenThread::run()): Ukoncenie vlakna listen, socket je zavrety!
+communicateThread::Send(): vlozene CRLF!
+communicateThread::Send(): prikopirovany prompt!
+communicateThread::Send(): delete pMsg!
+communicateThread::Send(): pMsg deleted!
+communicateThread: Zavrety socket, WSACONNABORTED
+CClients::ClientEnd : Vlakno 1 uspesne zastavene a vypustene z fronty
+parser: Uspesne zastaveny recvBroad
+parser: Uspesne zastaveny sendBroad
+main(): Server is closed!

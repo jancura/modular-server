@@ -1,0 +1,4 @@
+LIBRARY	loadconfig
+
+EXPORTS
+	load @1

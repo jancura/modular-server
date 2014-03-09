@@ -1,0 +1,4 @@
+LIBRARY	broadcastadd
+
+EXPORTS
+broadcastadd @1

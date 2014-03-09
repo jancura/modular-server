@@ -1,0 +1,4 @@
+LIBRARY	ping
+
+EXPORTS
+	ping @1

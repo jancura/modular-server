@@ -1,0 +1,5 @@
+LIBRARY	echo
+
+EXPORTS
+	Command @1
+	GetName @2
