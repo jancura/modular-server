@@ -1,13 +1,13 @@
 modular-server
 ==============
 
-Title: Modular server v1.0
+Title: Modular server
 
-- Author: Pavol Jancura (pavol.jancura@gmail.com)
+- Author   :  Pavol Jancura (pavol.jancura@gmail.com)
+- Platform :  Windows 
+- Langauge :  C++
+- Version  :  1.0
 
-- Platform:    Windows 
-
-- Langauge:    C++
 
 
 Descritpion: A programmable server which functionality can easily be extended by adding plugins (DDLs).
